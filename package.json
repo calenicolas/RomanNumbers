@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.2.2"
+  },
+  "name": "gise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "jest": "^29.2.2",
+    "save-dev": "^0.0.1-security"
+  }
+}
